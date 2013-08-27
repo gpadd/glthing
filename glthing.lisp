@@ -28,7 +28,7 @@
 (defclass cube-window (glut:window)
   ()
   (:default-initargs :width 500 :height 500 :title "add - glthing"
-                     :mode '(:single :rgb)))
+                     :mode '(:double :rgb)))
 
 (defmethod glut:display-window :before ((w cube-window))
   (gl:clear-color 0 0 0 0)
