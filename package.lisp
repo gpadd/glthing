@@ -1,5 +1,6 @@
 ;;;; package.lisp
 
 (defpackage #:glthing
-  (:use #:cl))
-
+  (:use #:cl)
+  (:export #:rb-cube
+	   #:run-stuff))
